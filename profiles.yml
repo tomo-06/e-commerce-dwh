@@ -1,0 +1,12 @@
+e_commerce_dwh:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ""
+      user: ""
+      role: SYSADMIN
+      warehouse: COMPUTE_WH
+      database: <学習用DB名>
+      schema: DEV
+      threads: 4

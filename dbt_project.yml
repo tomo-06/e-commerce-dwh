@@ -1,0 +1,19 @@
+name: 'e_commerce_dwh'
+version: '1.0.0'
+
+profile: 'e_commerce_dwh'
+
+
+model-paths: ["models"]
+
+
+models:
+  e_commerce_dwh:
+    staging:
+      +materialized: view
+    raw_vault:
+      +materialized: table
+    business_vault:
+      +materialized: table
+    marts:
+      +materialized: table
