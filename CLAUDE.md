@@ -19,7 +19,7 @@ Olist Brazilian E-Commerce データ(9テーブル、RAWスキーマにロード
 
 ## 命名規約
 - モデル名: `stg_<source>` / `hub_<entity>` / `link_<entity1>_<entity2>` / `sat_<entity>_<内容>` / `pit_<entity>` / `dim_ / fct_`
-- ブランチ名: `feat/` `chore/` `ops/` + ケバブケース(例: `feat/hub-customer`)
+- ブランチ名: feature/<issue番号>-<説明>
 
 ## あなた(Claude Code)の役割
 1. **PRレビュアー**: `/review-pr` コマンドでレビューを実施し、コメントをPRに投稿する
