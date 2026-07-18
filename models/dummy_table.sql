@@ -1,0 +1,2 @@
+SELECT *
+FROM {{source('dummy', 'OLIST_CUSTOMERS_DATASET')}}

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dummy
+    database: OLIST_DWH
+    schema: RAW
+    tables:
+      - name: OLIST_CUSTOMERS_DATASET
+

@@ -3,10 +3,8 @@ e_commerce_dwh:
   outputs:
     dev:
       type: snowflake
-      account: ""
-      user: ""
       role: SYSADMIN # 学習用。実務では最小権限の専用ロール(例: TRANSFORMER)を作るのが定石
       warehouse: COMPUTE_WH
-      database: <学習用DB名>
-      schema: DEV
+      database: OLIST_DWH
+      schema: DBT_DEV
       threads: 4
