@@ -5,7 +5,7 @@ dbt Projects on Snowflake × Data Vault 2.0 の学習用リポジトリ。
 Olist Brazilian E-Commerce データ(9テーブル、RAWスキーマにロード済み)を datavault4dbt で Raw Vault → Business Vault → Information Mart に変換する。
 
 - 開発はVSCode(WSL2)、実行は **dbt Projects on Snowflake**。ローカルにdbt Coreはインストールしない
-  - デプロイ&実行: `snow dbt deploy <object> --source .` → `snow dbt execute -x <object> run|test|deps`
+  - デプロイ&実行: `snow dbt deploy <object> --source .` → `snow dbt execute <object> run|test|deps`
   - Snowsight Workspacesは閲覧専用(DAG・リネージ・Run History)。編集はこのリポジトリ(VSCode)でのみ行う
 - パッケージ: datavault4dbt(Scalefree)。dbt_project.yml のグローバル変数がコード生成を制御する
 - ブランチ運用: GitHub Flow。1ブランチ = 1 Issue = 1タスク
